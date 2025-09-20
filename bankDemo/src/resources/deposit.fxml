@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane alignment="CENTER" animated="false" collapsible="false" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" text="Banking System" textAlignment="CENTER" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DepositController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="373.0" prefWidth="600.0">
+               <children>
+                  <HBox alignment="CENTER" maxHeight="80.0" prefHeight="80.0" prefWidth="600.0" spacing="10.0">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <children>
+                        <Button fx:id="decrease" mnemonicParsing="false" onMouseClicked="#decreaseClicked" text="Decrease" />
+                        <Label fx:id="label" alignment="CENTER" text="0" textAlignment="CENTER">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="increase" mnemonicParsing="false" onMouseClicked="#increaseClicked" text="Increase" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="87.0" prefWidth="600.0" spacing="5.0">
+                     <children>
+                        <Button fx:id="confirm" mnemonicParsing="false" onMouseClicked="#confirmClicked" text="Confirm" />
+                        <Button fx:id="withdraw" mnemonicParsing="false" onMouseClicked="#withdrawClicked" text="Withdraw" />
+                        <Button fx:id="balance" mnemonicParsing="false" onMouseClicked="#balanceClicked" text="Balance" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </content>
+</TitledPane>
