@@ -1,0 +1,29 @@
+# Eclipse workspace settings
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+
+# Eclipse project files (optional to ignore)
+.classpath
+.project
+
+# Build directories
+target/
+build/
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# OS-specific files
+.DS_Store
+Thumbs.db
