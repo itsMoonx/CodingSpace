@@ -1,10 +1,11 @@
 package main;
 
-public class Main {
+import controllers.todolist;
+
+public class Main extends todolist {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hi");
+		launch(args);
 	}
 
 }
