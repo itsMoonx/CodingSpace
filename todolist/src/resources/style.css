@@ -1,0 +1,9 @@
+
+/* only wish to have title bar at certain height
+setStyle does not accept selectors
+ */
+
+.titled-pane > .title {
+	-fx-pref-height:30px;
+}
+				
